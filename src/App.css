@@ -14,14 +14,38 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #4d869c;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+button{
+  float: left;
+  margin: 1%;
+}
+
+main{
+  background-color: #7ab2b2;
+}
+
+article{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+article p{
+  text-align: left;
+  margin-left: 1%;
+  font-size: 18px;
+}
+
+footer{
+  padding: 1px;
+  color: #eef7ff;
 }
 
 .App-link {
